@@ -1,63 +1,63 @@
 # Sinyor Futbol
 
-**Sinyor Futbol**, futbol gündemini takip eden, yapay zekâ desteğiyle Instagram/TikTok için paylaşmaya hazır post, carousel ve reels içerikleri üreten; ayrıca bu içeriklerin hedef kitle, format, risk, güvenilirlik ve yayın değerini analiz eden masaüstü futbol içerik Ar-Ge panelidir.
+**Sinyor Futbol** is a desktop football content R&D panel that tracks football headlines, generates AI-powered social media content (posts, carousels, and reels) ready for Instagram/TikTok, and analyzes the target audience, format, risk, credibility, and publishing value of that content.
 
-Bu paket bir **MVP proje iskeletidir**. Gerçek haber kaynakları, ücretli API'ler, gelişmiş görsel manipülasyon ve LLM entegrasyonu daha sonra bağlanacak şekilde modüler hazırlanmıştır.
+This package is an **MVP project skeleton**. Real news sources, paid APIs, advanced visual manipulation, and LLM integration are designed to be modular and connected later.
 
-## Ne var?
+## What's Included?
 
-- Bilgisayarda çalışan Streamlit panel
-- Gündem / haber toplama simülasyonu
-- Kulüp, lig, milli takım ve Dünya Kupası odaklı içerik yapısı
-- Post, carousel, reels metni üretim modülü
-- Sade-manipülasyon temelli görsel stil motoru
-- İçerik Ar-Ge analiz paneli
-- AI asistan günlük rapor mantığı
-- Export klasör yapısı
+- Streamlit desktop panel
+- News/headline collection simulation
+- Content structure focused on clubs, leagues, national teams, and World Cup
+- Post, carousel, and reels text generation module
+- Simple manipulation-based visual style engine
+- Content R&D analysis panel
+- AI assistant daily report logic
+- Export folder structure
 
-## Kurulum
+## Installation
 
 ```bash
 cd sinyor_futbol_project/app
 python -m venv .venv
 ```
 
-Windows:
+**Windows:**
 
 ```bash
 .venv\Scripts\activate
 ```
 
-macOS / Linux:
+**macOS / Linux:**
 
 ```bash
 source .venv/bin/activate
 ```
 
-Bağımlılıkları kur:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Çalıştır:
+Run the app:
 
 ```bash
 streamlit run app.py
 ```
 
-Panel açılmazsa tarayıcıdan şu adrese git:
+If the panel doesn't open, navigate to this URL in your browser:
 
 ```text
 http://localhost:8501
 ```
 
-## OpenAI / LLM entegrasyonu
+## OpenAI / LLM Integration
 
-Bu MVP varsayılan olarak mock içerik üretir. Gerçek AI kullanmak için `.env.example` dosyasını `.env` olarak kopyalayıp API anahtarını girmen ve `modules/content/ai_writer.py` dosyasındaki ilgili yeri açman gerekir.
+This MVP generates mock content by default. To use real AI, copy `.env.example` to `.env`, add your API key, and uncomment the relevant section in `modules/content/ai_writer.py`.
 
-## Proje vizyonu
+## Project Vision
 
-Sinyor Futbol'un nihai hedefi:
+Sinyor Futbol's ultimate goal is to be:
 
-> Futbol gündemini takip eden, güncel haberleri analiz eden, marka kimliğine uygun sosyal medya içerikleri üreten ve bu içeriklerin kitleye ulaşma potansiyelini ölçen yapay zekâ destekli futbol medya Ar-Ge paneli olmak.
+> An AI-powered desktop panel that tracks football headlines, analyzes breaking news, generates brand-aligned social media content, and measures the content's potential reach—all while helping content creators understand the story behind the story.
