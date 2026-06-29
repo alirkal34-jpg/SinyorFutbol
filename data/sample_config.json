@@ -1,0 +1,21 @@
+{
+  "project_name": "Sinyor Futbol",
+  "posting_mode": "manual_export",
+  "visual_style": "Minimal Editorial Football",
+  "tracked_entities": [
+    "Beşiktaş",
+    "Galatasaray",
+    "Fenerbahçe",
+    "Trabzonspor",
+    "Türkiye A Milli Takımı",
+    "Dünya Kupası",
+    "Premier League",
+    "Champions League"
+  ],
+  "content_formats": [
+    "Tek Görsel Post",
+    "Carousel",
+    "Reels",
+    "TikTok Metni"
+  ]
+}

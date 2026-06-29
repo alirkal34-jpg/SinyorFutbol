@@ -1,0 +1,15 @@
+[theme]
+# Ana vurgu rengi (Tatlı bir kırmızı, butonlar ve seçimler için)
+primaryColor = "#E63946"
+
+# Ana arka plan rengi (Koyu tema)
+backgroundColor = "#0F1115"
+
+# İkincil arka plan (Yan menü ve çerçevelerin içi için hafif daha açık bir koyu)
+secondaryBackgroundColor = "#1E2127"
+
+# Yazı rengi
+textColor = "#F1F1F1"
+
+# Yazı tipi
+font = "sans serif"
